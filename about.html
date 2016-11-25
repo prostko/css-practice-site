@@ -5,7 +5,7 @@
 </head>
 <body>
 	<nav>
-		<table border=.5>
+		<table border=1>
 			<tr>
 				<th><a href="index.html" style="text-decoration:none">Home</a></th>
 			</tr>
@@ -13,7 +13,7 @@
 				<th><a href="legal.html" target="_blank" style="text-decoration:none">Legal</a></th>
 			</tr>
 			<tr>
-				<th><a href="reviews.html" target="_blank" style="text-decoration:none">Reviews</a></th>
+				<th><a href="reviews.html" style="text-decoration:none">Reviews</a></th>
 			</tr>
 		</table>
 	</nav>
@@ -26,11 +26,11 @@
 			<fieldset>
 				<div>
 					<label>Enter your email: </label>
-					<input type="text" email="email">
+					<input type="email" name="name">
 				</div>
 				<div>
 					<label>Would you like to hear about upcoming events from curated third parties?</label>
-					<input type="checkbox" input="cb-agree" value="agree">
+					<input type="checkbox" name="cb-agree" value="agree">
 				</div>
 				<div>
 					<label>What is your favorite cusine?</label>
@@ -40,11 +40,10 @@
 					<option value="foodtype">Inspired Farm to Table</option>
 					<option value="foodtype">Bistronomy</option>
 					<option value="foodtype">Fusion</option>
+					</select>
 				</div>
-
-
-			</fieldset>
 				<button type="submit">Submit</button>
+			</fieldset>
 		</form>
 	</footer>
 </body>
