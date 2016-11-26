@@ -1,0 +1,21 @@
+muskt_interior 
+
+	url :  http://s3.amazonaws.com/remodelista-old-production/content/uploads/2015/03/fields/The-Muskeet-Room-New-York-City-Emily-Andrews-Remodelista-3.jpg
+
+CC writeup :  http://www.remodelista.com/terms-of-service/
+
+musket_truffle
+
+	url :  http://bon-vivant.dk/wp-content/uploads/2015/02/resize.png
+
+CC writeup : https://creativecommons.org/licenses/by/4.0/
+
+musket_duck
+	url : https://s-media-cache-ak0.pinimg.com/originals/9f/4b/aa/9f4baa91649c9dab74e0b3482bd42ed1.jpg
+
+cc writeup : https://about.pinterest.com/en/terms-service
+
+valar
+	url : https://s-media-cache-ak0.pinimg.com/236x/e1/d0/50/e1d0504b55872bef2fcee48da6b9b019.jpg
+
+cc writeup : https://about.pinterest.com/en/terms-servic
