@@ -1,3 +1,45 @@
+
+
 body{
-	background: #aaaaaa;
+	background: #fdfdfd;
+}
+nav{
+	
+	text-align: center;
+}
+ul{
+	border-bottom: 1px solid #cccccc;
+}
+ul li{
+	width: 125px;
+	text-align: left;
+	display: inline-block;
+	margin: 2% auto 0 auto;
+	padding-bottom: .75%;
+}
+h1{
+	text-align: center;
+	padding-bottom: 0px;
+	margin: 6% auto 0px auto;
+}
+.img p{
+	width:60px;
+	display: inline-block;
+	font-size: 8px;
+}
+.img figure{
+	display: inline-block;
+	width: 30%;
+}
+.img figcaption{
+	width: 60px;
+}
+img{
+	display: inline-block;
+	float: ;
+	width: 20%;
+	height: 20%;
+	margin: 2% auto 0 auto;
+
+
 }
