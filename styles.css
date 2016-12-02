@@ -1,4 +1,4 @@
-
+*{border: 0px solid black;}
 
 body{
 	background: #dfdfdb;
@@ -7,61 +7,104 @@ body{
 	padding: 0;
 	
 }
-nav{
+
+header {
 	text-align: center;
+	padding: 0;
+	margin: 15% auto 0px auto;
+	font-family: zapfino, georgia;
+	font-weight: 100;
+	font-size: 200%;
+	line-height: 30px;
+	color: #333333;
+	text-shadow: .8px .8px white;
+}
+header h1{
+	letter-spacing: -20px;
+}
+
+header em{
+	font-family: georgia;
+	font-size: 12px;
+	margin-left: 22px;
+	padding: 0;
+	color: #555555;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #aaaaaa;
+	text-shadow: none;
+}
+
+nav{
+	width: 100%;
 } 
 ul{
 	border-bottom: 1px solid #cccccc;
+	text-align: center;
 	
 }
 ul li{
-	width: 125px;
+	width: 21%;
 	text-align: center;
 	display: inline-block;
-	margin: 2% auto 0 auto;
+	margin: 2% 0 2% 0;
 	padding-bottom: .75%;
-	
+	border-right: 1px solid #eeeeee;
+	font-size: 90%;
+	font-weight: 100;
 }
+
 a {
 	text-decoration: none;
 	color: #666666;
+	letter-spacing: 3px;
 }
-h1{
-	text-align: center;
-	padding-bottom: 0px;
-	margin: 6% auto 0px auto;
+
+#review {
+	border-right: none;
 }
 
 .images {
 	display: flex;
 	flex-flow: row;
-	justify-content: center;
-	
+	justify-content: space-between;
+	margin-top: 5%;
+}
+
+#review {
+	border-right: none;
 }
 
 figure{
-	
 	width: 25%;
 	height:25%;
 	margin: 2%;
 	min-width: 200px;
-	
 }
 
 figure img{
-
 	width: 100%;
 	padding: 0;
 	margin: 0;
+	padding-top: 10%;
+	border-top: 1px solid #cfcfcf;
 
 }
-
 
 figcaption{
 	width: 100%;
 	height: auto;
 	text-align: center;
 	font-size: 12px;
+	font-weight: 500;
+}
+
+
+
+figcaption:last-child {
+	padding-bottom: 10%;
+	border-bottom: 1px solid #aaaaaa;
+
+}
 }
 
 
