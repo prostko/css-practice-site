@@ -5,47 +5,34 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<nav>
-		<table border=1>
-			<tr>
-				<th><a href="index.html" style="text-decoration:none">Home</a></th>
-			</tr>
-			<tr>
-				<th><a href="legal.html" target="_blank" style="text-decoration:none">Legal</a></th>
-			</tr>
-			<tr>
-				<th><a href="reviews.html" style="text-decoration:none">Reviews</a></th>
-			</tr>
-		</table>
+	<nav class="alt-nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<Li><a href="index.html">Inspiration</a></li>
+			<li id="review"><a href="reviews.html">Reviews</a></li>
+		</ul>
 	</nav>
 	
-	<p> For 2 years I <em>"apprentissaged"</em> (apprecticed under) a French chef who was as bothered as I was when guests in the dining room would shovel the plate I had just slaved over into their mouths without a second thought. At this he would say that 9 out of 10 people who sat for dinner service had no conception of what they were about to eat, no taste or class. They ate like animals, he said. This is for the 10%. The people with taste.</p>
 
+	<figure class="about-img">
+		<img src="images/kitchen.jpg">
+	</figure>
+		
+	<div class="about-figcapt">
+		<p> I am a former chef who cooked in some of the finest restaurants in the world. I studied french cuisine, eventually moving to France in order to pursue my education in the origination of fine cuisine. I worked in Michelin starred restaurants, restaurants considered to be the best there are, under chefs who had spent their entire lives perfecting their craft, honing their skill. Spent tens of thousands of days, hours beyond measurement, of concentrated effort and focus.</p>
+	</div>
+	
+	<article>
+		<p> A chef I worked with once told me that almost no one can truly enjoy the experience, unless they have the ability and knowledge to truly appreciate it. Like jazz to the ear of the musician. He said that only 3 percent -about 1 in 50- of the guests who sit for dinner service will truly understand, the rest simply eat like animals, for fuel. This is for the 3%.</p> 
+		<em id="taste">Those with taste.</em>
+	</article>
 <footer>
-		<h3>Sign up for the email list!</h3>
+	<div class="email-sign-up">
 		<form name="email_sign_up" action="https://httpbin.org/post" method="post">
-			<fieldset>
-				<div>
-					<label>Enter your email: </label>
-					<input type="email" name="name">
-				</div>
-				<div>
-					<label>Would you like to hear about upcoming events from curated third parties?</label>
-					<input type="checkbox" name="cb-agree" value="agree">
-				</div>
-				<div>
-					<label>What is your favorite cusine?</label>
-					<select name="food">
-					<option value="foodtype">----</option>
-					<option value="foodtype">French</option>
-					<option value="foodtype">Inspired Farm to Table</option>
-					<option value="foodtype">Bistronomy</option>
-					<option value="foodtype">Fusion</option>
-					</select>
-				</div>
-				<button type="submit">Submit</button>
-			</fieldset>
+			<input class="email-box" type="text" email="email" placeholder="Enter your Email address.">
+			<button type="submit">Submit</button>
 		</form>
-	</footer>
+	</div>
+</footer>
 </body>
 </html>

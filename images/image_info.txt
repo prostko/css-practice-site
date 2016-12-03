@@ -19,3 +19,7 @@ valar
 	url : https://s-media-cache-ak0.pinimg.com/236x/e1/d0/50/e1d0504b55872bef2fcee48da6b9b019.jpg
 
 cc writeup : https://about.pinterest.com/en/terms-servic
+
+kitchen.jpg
+	url: http://munchies-images.vice.com/wp_upload/15907156015_87064a0bea_k.jpg?crop=1xw:0.60014652014652xh;*,*&resize=1200:*
+	cc: http://www.vice.com/terms-of-use#a2

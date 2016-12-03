@@ -6,18 +6,12 @@
 </head>
 <body>
 
-	<nav>
-		<table border=.5>
-			<tr>
-				<th><a href="index.html" style="text-decoration:none">Home</a></th>
-			</tr>
-			<tr>
-				<th><a href="legal.html" target="_blank" style="text-decoration:none">Legal</a></th>
-			</tr>
-			<tr>
-				<th><a href="about.html" style="text-decoration:none">About Us</a></th>
-			</tr>
-		</table>
+	<nav class="alt-nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<Li><a href="index.html">Inspiration</a></li>
+			<li id="review"><a href="reviews.html">Reviews</a></li>
+		</ul>
 	</nav>
 
 	<div>
@@ -35,32 +29,20 @@
 
 
 	<footer>
-		<h3>Sign up for the email list!</h3>
+
+	<section class="legal">
+		<ul>
+			<li><a href="legal.html">Legal</a></li>
+		</ul>
+	</section>
+
+	<div class="email-sign-up">
 		<form name="email_sign_up" action="https://httpbin.org/post" method="post">
-			<fieldset>
-				<div>
-					<label>Enter your email: </label>
-					<input type="text" email="email">
-				</div>
-				<div>
-					<label>Do you want some free shwag?</label>
-					<input type="checkbox" input="cb-agree" value="agree">
-					You know you do!
-				</div>
-				<div>
-					<label>Who is your daddy and what does he do?</label>
-					<select name="daddy_job">
-					<option value="namejob">----</option>
-					<option value="namejob">Paul Blart, Mall Cop</option>
-					<option value="namejob">Ron Burgundy, Anchorman</option>
-					<option value="namejob">Betelgeuse, Bio-Exorcist</option>
-					<option value="namejob">GET TO THA CHOPPAH</option>
-					</select>
-				</div>
-					<button type="submit">Submit</button>
-			</fieldset>
+			<input class="email-box" type="text" email="email" placeholder="Enter your Email address.">
+			<button type="submit">Submit</button>
 		</form>
-	</footer>
+	</div>
+</footer>
 
 </body>
 </html>
