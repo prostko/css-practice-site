@@ -181,14 +181,29 @@ article {
 	margin-top: 10%;
 }
 
-ul li a :visited {
-	color: #hotpink;
+ul li a:visited {
+	color: hotpink;
 }
 ul li a:hover {
 	color: white;
 
+}
 
+@media all and (max-width: 675px) {
+	.images {
+		flex-flow: column;
+	}
+	figure {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 
-
+@media screen and (max-width: 400px) {
+  * {
+    border: 1px solid black;
+  }
+}
 
 
