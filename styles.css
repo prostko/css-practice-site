@@ -179,8 +179,8 @@ article {
 	margin-top: 10%;
 }
 
-ul li a :visited {
-	color: #hotpink;
+ul li a:visited {
+	color: hotpink;
 }
 ul li a:hover {
 	color: white;
