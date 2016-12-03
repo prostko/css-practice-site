@@ -179,7 +179,7 @@ article {
 	margin-top: 10%;
 }
 
-nav ul li a :visited {
+ul li a :visited {
 	color: #555511;
 }
 ul li a:hover {
